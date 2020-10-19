@@ -1,7 +1,9 @@
+# File generated from our OpenAPI spec
 # frozen_string_literal: true
 
 module Stripe
   class TaxId < APIResource
+    extend Stripe::APIOperations::Create
     include Stripe::APIOperations::Delete
     extend Stripe::APIOperations::List
 
